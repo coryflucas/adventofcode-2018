@@ -8,6 +8,7 @@ namespace Aoc2018.Day1.Part1
     {
         static void Main(string[] args)
         {
+            
             var result = StreamUtils.Lines(Console.OpenStandardInput())
                 .Select(int.Parse)
                 .Sum();
